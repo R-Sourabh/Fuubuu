@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build and Output
+dist/
+**/dist/
+web-build/
+**/web-build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Expo & Mobile
+.expo/
+**/.expo/
+expo-env.d.ts
+
+# Native & Security
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Debug & Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
